@@ -2,7 +2,7 @@ import time
 import re
 from selenium import webdriver
 from selenium.webdriver.support.color import Color
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://colorhunt.co/")
 
 rgb = driver.find_element_by_xpath("//div[3]//div[1]//div[3]").value_of_css_property("background-color")

@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://www.redbus.in/")
 
 #Print how many links present in the webpage

@@ -3,7 +3,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import time
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("http://testautomationpractice.blogspot.com/")
 
 dclk = driver.find_element_by_xpath("//button[normalize-space()='Copy Text']")

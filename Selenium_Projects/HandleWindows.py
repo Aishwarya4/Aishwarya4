@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 # open chrome browser
-driver = webdriver.Chrome(executable_path=r'E:\Selenium_using_python\chromedriver.exe')
+driver = webdriver.Chrome(executable_path=r'A:\Automation\Selenium_using_python\chromedriver.exe')
 # set implicit time to 30 seconds
 driver.implicitly_wait(30)
 # navigate to the url

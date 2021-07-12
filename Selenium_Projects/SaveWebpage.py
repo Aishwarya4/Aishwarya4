@@ -3,7 +3,7 @@ from selenium import webdriver
 import codecs
 
 #set chromedriver.exe path
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.implicitly_wait(0.5)
 #maximize browser
 driver.maximize_window()

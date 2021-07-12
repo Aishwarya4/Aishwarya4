@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 #open the first window
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.maximize_window()
 driver.get("http://www.facebook.com")
 

@@ -10,7 +10,7 @@ class LoginTest(unittest.TestCase):
     baseURL = "https://alison.com/"
     username = "aishwaryaparab88@gmail.com"
     password = "aishusy09"
-    driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="E:\Selenium_using_pythonA:\Automation\Selenium_using_python\chromedriver.exe")
 
     @classmethod
     def setUpClass(cls):

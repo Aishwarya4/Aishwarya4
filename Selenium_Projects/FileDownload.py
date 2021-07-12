@@ -14,7 +14,7 @@ fp.set_preference("browser.download.manager.showWhenStarting", False)
 fp.set_preference("browser.download.dir", 'E:\Filedownload')
 fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/plain,application/pdf")#Mime type
 
-driver = webdriver.Firefox(executable_path="E:\Selenium_using_python\chromedriver.exe",firefox_profile=fp)
+driver = webdriver.Firefox(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe",firefox_profile=fp)
 driver.get("http://demo.automationtesting.in/FileDownload.html")
 
 #Download text file

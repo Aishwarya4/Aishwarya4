@@ -17,7 +17,7 @@ test_url = 'https://jqueryui.com/datepicker/#date-range'
 class CalendarControlTest(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
         self.driver.maximize_window()
 
     def test_calendar_control_range_(self):

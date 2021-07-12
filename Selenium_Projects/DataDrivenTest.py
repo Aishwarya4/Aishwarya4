@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://alison.com/")
 time.sleep(5)
 driver.find_element_by_xpath("//a[@class='link login-button']").click()

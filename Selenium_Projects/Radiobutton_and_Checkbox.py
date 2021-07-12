@@ -5,7 +5,7 @@ import time
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 '''driver.get("https://www.keynotesupport.com/internet/web-contact-form-example-radio-buttons.shtml")
 driver.implicitly_wait(10)
 

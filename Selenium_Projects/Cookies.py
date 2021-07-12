@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://www.amazon.in/")
 
 #capture all the cookies created by browser

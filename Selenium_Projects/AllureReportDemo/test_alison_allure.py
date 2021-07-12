@@ -6,7 +6,7 @@ from selenium import webdriver
 class TestAlison:
     @allure.severity(allure.severity_level.MINOR)
     def test_logo(self):
-        self.driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
         self.driver.get("https://alison.com/")
         status = self.driver.find_element_by_xpath("//header[contains(@class,'not-loggedin')]//a[2]//img[1]").is_displayed()
 
@@ -22,7 +22,7 @@ class TestAlison:
 
     @allure.severity(allure.severity_level.CRITICAL)
     def test_login(self):
-        self.driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
         self.driver.get("https://alison.com/")
         self.driver.find_element_by_xpath("//span[@class='text']").click()
         self.driver.find_element_by_xpath("//form[@name='login-form']//input[@placeholder='Email address']").send_keys("aishwaryaparab88@gmail.com")

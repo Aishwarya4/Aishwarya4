@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html")
 
 driver.switch_to.frame("packageListFrame")  #Using name

@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_pythonchromedriver.exe")
 driver.get("https://swisnl.github.io/jQuery-contextMenu/demo.html")
 
 RCLK = driver.find_element_by_xpath("//span[@class='context-menu-one btn btn-neutral']")

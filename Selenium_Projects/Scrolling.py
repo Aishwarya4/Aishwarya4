@@ -3,7 +3,7 @@ import time
 
 from selenium.webdriver import ActionChains
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://www.nationsonline.org/oneworld/countries_of_the_world.htm")
 
 #Scroll by pixel value

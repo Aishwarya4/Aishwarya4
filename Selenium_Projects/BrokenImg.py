@@ -5,7 +5,7 @@ from selenium import webdriver
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 options.add_argument('disable-infobars')
-driver=webdriver.Chrome(options=options, executable_path=r"E:\Selenium_using_python\chromedriver.exe")
+driver=webdriver.Chrome(options=options, executable_path=r"A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get('http://the-internet.herokuapp.com/broken_images')
 links = driver.find_elements_by_css_selector("img")
 

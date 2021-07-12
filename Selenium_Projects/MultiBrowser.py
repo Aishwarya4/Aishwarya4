@@ -1,4 +1,4 @@
-import current as current
+# import current as current
 from selenium import webdriver
 # from selenium.webdriver.common.keys import Keys
 
@@ -6,15 +6,15 @@ from selenium import webdriver
 # from selenium.webdriver.chrome.service import Service
 
 #to remove deprecation warning
-# s = Service("E:\Selenium_using_python\chromedriver.exe")
+# s = Service("A:\Automation\Selenium_using_python\chromedriver.exe")
 # driver= webdriver.Chrome(service=s)
 
-#driver= webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
-# driver= webdriver.Firefox(executable_path="E:\Selenium_using_python\geckodriver.exe")
-driver= webdriver.Edge(executable_path="E:\Selenium_using_python\msedgedriver.exe")
-# driver.get("http://www.facebook.com")
+driver= webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
+# driver= webdriver.Firefox(executable_path="A:\Automation\Selenium_using_python\geckodriver.exe")
+# driver= webdriver.Edge(executable_path="A:\Automation\Selenium_using_python\msedgedriver.exe")
+driver.get("http://www.facebook.com")
 driver.refresh()
-# print(driver.title)   #Return title of the page
+print(driver.title)   #Return title of the page
 # print(driver.current_url)  #Return the URL of the page
 # print(driver.page_source)   #Return HTML code for the page
 # print(driver.get_window_size(current)) #get height and width
@@ -25,11 +25,11 @@ driver.refresh()
 # print(driver.get_log())
 
 # get geeksforgeeks.org
-driver.get("https://www.geeksforgeeks.org/")
+# driver.get("https://www.geeksforgeeks.org/")
 # get element
-element = driver.find_element_by_link_text("Courses")
+# element = driver.find_element_by_link_text("Courses")
 # get id of element
-id = element._id
+# id = element._id
 # create another element
-element_clone = driver.create_web_element(id)
+# element_clone = driver.create_web_element(id)
 driver.close()

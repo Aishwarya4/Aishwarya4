@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://www.w3schools.com/html/html_tables.asp")
 
 rows = len(driver.find_elements_by_xpath("/html[1]/body[1]/div[7]/div[1]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr"))

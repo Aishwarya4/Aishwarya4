@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("http://testautomationpractice.blogspot.com/")
 
 driver.find_element_by_xpath("//button[normalize-space()='Click Me']").click()

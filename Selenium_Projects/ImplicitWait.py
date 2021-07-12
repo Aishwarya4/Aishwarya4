@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Edge(executable_path="E:\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Edge(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://alison.com/login")
 #print(driver.title)
 
