@@ -8,7 +8,7 @@ driver.get("https://alison.com/")
 time.sleep(5)
 driver.find_element_by_xpath("//a[@class='link login-button']").click()
 time.sleep(5)
-path = "E:\DataDrivenTest.xlsx"
+path = "A:\Automation\Selenium_using_python\Selenium_Projects\DataDrivenTest.xlsx"
 rows = XLUtils.getRowCount(path,"Sheet1")
 
 for r in range(2,rows+1):

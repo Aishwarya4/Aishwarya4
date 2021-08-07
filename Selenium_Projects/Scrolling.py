@@ -17,13 +17,13 @@ driver.get("https://www.nationsonline.org/oneworld/countries_of_the_world.htm")
 # time.sleep(10)
 
 #Scroll down till page end
-# driver.execute_script("window.scrollBy(0,document.body.scrollHeight)")
-# time.sleep(10)
+driver.execute_script("window.scrollBy(0,document.body.scrollHeight)")
+time.sleep(10)
 
 #Using Action Class
-l=driver.find_element_by_xpath("//a[normalize-space()='Colombia']")
-a = ActionChains(driver)
-a.move_to_element(l).perform()
-time.sleep(10)
+# l=driver.find_element_by_xpath("//a[normalize-space()='Colombia']")
+# a = ActionChains(driver)
+# a.move_to_element(l).perform()
+# time.sleep(10)
 
 driver.close()

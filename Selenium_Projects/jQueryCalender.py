@@ -9,7 +9,7 @@ target_month = "May"
 target_date = "1"
 space = " "
 
-expected_month_year_val = '05/01/2021'
+expected_month_year_val = '08/01/2021'
 
 test_url = 'http://jqueryui.com/resources/demos/datepicker/other-months.html'
 

@@ -10,7 +10,7 @@ driver.maximize_window()
 #launch URL
 driver.get("https://www.tutorialspoint.com/index.htm")
 #get file path to save page
-n=os.path.join("E:\Software_Testing","Page.html")
+n=os.path.join("A:\Automation\Selenium_using_python\Selenium_Projects\demo_files","Page.html")
 #open file in write mode with encoding
 f = codecs.open(n, "w", "utf−8")
 #obtain page source

@@ -1,6 +1,6 @@
 import openpyxl
 #Supported formats are: .xlsx,.xlsm,.xltx,.xltm
-path = "E:\openpyxl_file_example.xlsx"
+path = "A:\Automation\Selenium_using_python\Selenium_Projects\DataDrivenTest.xlsx"
 
 #To load the workbook
 workbook = openpyxl.load_workbook(path)

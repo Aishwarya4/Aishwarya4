@@ -55,3 +55,30 @@ JavaScript warning: https://www.amazon.in/ line 6 > injectedScript, line 1: Fail
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://www.amazon.in/ line 6 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+1628330541334	geckodriver	INFO	Listening on 127.0.0.1:64460
+1628330544443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofilegnNgV8"
+1628330545468	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aishwarya\\AppData\\Local\\Temp\\rust_mozprofilegnNgV8\\search.json.mozlz4", (void 0)))
+1628330548093	Marionette	INFO	Listening on port 64468
+1628330548188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628330557114	Marionette	INFO	Stopped listening on port 64468
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628334874827	geckodriver	INFO	Listening on 127.0.0.1:58159
+1628334877967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofileA3Bdqy"
+1628334878803	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aishwarya\\AppData\\Local\\Temp\\rust_mozprofileA3Bdqy\\search.json.mozlz4", (void 0)))
+1628334881213	Marionette	INFO	Listening on port 58167
+1628334881689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628334903183	Marionette	INFO	Stopped listening on port 58167
+1628334939747	geckodriver	INFO	Listening on 127.0.0.1:54993
+1628334942828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofile4kE8Ii"
+1628334943189	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aishwarya\\AppData\\Local\\Temp\\rust_mozprofile4kE8Ii\\search.json.mozlz4", (void 0)))
+1628334945229	Marionette	INFO	Listening on port 55001
+1628334945525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628334964661	Marionette	INFO	Stopped listening on port 55001
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

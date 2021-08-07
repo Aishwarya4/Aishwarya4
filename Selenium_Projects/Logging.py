@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(filename="E://Software_Testing//logging_demo//loggerfile.log",
+logging.basicConfig(filename="A://Automation//Selenium_using_python//Selenium_Projects//loggerfile.log",
                     format='%(asctime)s: %(levelname)s: %(message)s',
                     datefmt='%m/%d/%Y %I:%M:%S %p')
 logger = logging.getLogger()

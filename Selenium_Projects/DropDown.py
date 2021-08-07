@@ -8,13 +8,13 @@ driver.get("https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407")
 drp = Select(driver.find_element_by_id("RESULT_RadioButton-9"))
 
 #Select by option
-#drp.select_by_visible_text("Morning")
+# drp.select_by_visible_text("Morning")
 
 #Select by index
-#drp.select_by_index(2)
+drp.select_by_index(2)
 
 #Select by value
-drp.select_by_value("Radio-2")
+# drp.select_by_value("Radio-2")
 
 #Count the number of option in dropdown
 print("Number of dropdown option:",len(drp.options))

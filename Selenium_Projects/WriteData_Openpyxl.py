@@ -1,6 +1,6 @@
 import openpyxl
 
-path = "E:\WriteDataTest.xlsx"
+path = "A:\Automation\Selenium_using_python\Selenium_Projects\WriteDataTest.xlsx"
 
 workbook = openpyxl.load_workbook(path)
 sheet = workbook.active

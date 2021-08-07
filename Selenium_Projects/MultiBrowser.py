@@ -3,9 +3,9 @@ from selenium import webdriver
 # from selenium.webdriver.common.keys import Keys
 
 #to remove deprecation warning import this
-# from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.service import Service
 
-#to remove deprecation warning
+# to remove deprecation warning
 # s = Service("A:\Automation\Selenium_using_python\chromedriver.exe")
 # driver= webdriver.Chrome(service=s)
 

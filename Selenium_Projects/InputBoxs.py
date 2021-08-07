@@ -6,7 +6,7 @@ driver.get("https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407")
 
 #How to count the number of input boxs
 count_input = driver.find_elements_by_class_name('text_field')
-print(len(count_input))
+print("Number of Textboxes:",len(count_input))
 
 #How to get the status of the input box
 status = driver.find_element_by_class_name("text_field").is_displayed()

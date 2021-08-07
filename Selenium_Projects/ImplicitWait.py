@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-driver = webdriver.Edge(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
 driver.get("https://alison.com/login")
 #print(driver.title)
 
@@ -11,4 +11,4 @@ driver.find_element_by_name("email").send_keys("aishwaryaparab88@gmail.com")
 driver.find_element_by_name("password").send_keys("aishusy09")
 
 driver.find_element_by_class_name("submit-login").click()
-#driver.close()
+driver.close()

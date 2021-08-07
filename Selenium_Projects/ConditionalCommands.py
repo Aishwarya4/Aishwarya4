@@ -1,7 +1,7 @@
 from selenium import webdriver
 
-#driver=webdriver.Chrome(executable_path="E:\Selenium using python\chromedriver.exe")
-driver=webdriver.Edge(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
+driver=webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
+# driver=webdriver.Edge(executable_path="A:\Automation\Selenium_using_python\msedgedriver.exe")
 driver.get("https://inorbitcabs.com/")
 
 #Radio Button Status

@@ -14,16 +14,18 @@ ele2 = driver.find_element_by_xpath("//a[contains(@class,'right-handle' ) ]")
 # time.sleep(5)
 # ActionChains(driver).drag_and_drop_by_offset(ele2,-50,0).perform()
 # time.sleep(5)
+
 #Approach2
-# ActionChains(driver).click_and_hold(ele1).pause(1).move_by_offset(50,0).release().perform()
-# time.sleep(5)
-# ActionChains(driver).click_and_hold(ele2).pause(1).move_by_offset(-50,0).release().perform()
-# time.sleep(5)
+ActionChains(driver).click_and_hold(ele1).pause(1).move_by_offset(50,0).release().perform()
+time.sleep(5)
+ActionChains(driver).click_and_hold(ele2).pause(1).move_by_offset(-50,0).release().perform()
+time.sleep(5)
+
 #Approach3
-ActionChains(driver).move_to_element(ele1).pause(1).click_and_hold(ele1).move_by_offset(50,0).release().perform()
-time.sleep(5)
-ActionChains(driver).move_to_element(ele2).pause(1).click_and_hold(ele2).move_by_offset(-50,0).release().perform()
-time.sleep(5)
+# ActionChains(driver).move_to_element(ele1).pause(1).click_and_hold(ele1).move_by_offset(50,0).release().perform()
+# time.sleep(5)
+# ActionChains(driver).move_to_element(ele2).pause(1).click_and_hold(ele2).move_by_offset(-50,0).release().perform()
+# time.sleep(5)
 driver.close()
 
 

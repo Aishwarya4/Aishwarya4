@@ -11,3 +11,4 @@ drop_ele = driver.find_element_by_xpath("//div[@id='box106']")
 actions = ActionChains(driver)
 
 actions.drag_and_drop(drag_ele,drop_ele).perform()
+driver.close()

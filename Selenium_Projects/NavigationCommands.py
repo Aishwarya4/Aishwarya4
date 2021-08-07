@@ -4,8 +4,7 @@ import time
 
 #driver= webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
 #driver= webdriver.Firefox(executable_path="E:\Selenium_using_python\geckodriver.exe")
-#driver= webdriver.Ie(executable_path="E:\Selenium_using_python\IEDriverServer.exe")
-driver= webdriver.Edge(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
+driver= webdriver.Edge(executable_path="A:\Automation\Selenium_using_python\msedgedriver.exe")
 driver.get("http://pavantestingtools.blogspot.in/")
 print(driver.title)   #Return title of the page
 

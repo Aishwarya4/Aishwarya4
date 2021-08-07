@@ -18,3 +18,4 @@ for link in links:
     print("Valid img")
   else:
     print(link.get_attribute('src'),"Broken img")
+driver.close()

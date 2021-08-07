@@ -18,3 +18,5 @@ for link in links:
     print("Valid link")
   else:
     print(link.get_attribute('href'),"Broken link")
+
+driver.close()

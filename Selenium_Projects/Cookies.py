@@ -25,3 +25,5 @@ print(cookies)
 driver.delete_all_cookies()
 cookies = driver.get_cookies()
 print("After deleting all cookies:",len(cookies))
+
+driver.close()

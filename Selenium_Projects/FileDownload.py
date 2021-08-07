@@ -3,18 +3,18 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 #To download files at specific folder in Chrome
-# chromeOptions = webdriver.ChromeOptions()
-# chromeOptions.add_experimental_option("prefs",{"download.default_directory" : "E:\Filedownload"})
-# driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe",options = chromeOptions)
+chromeOptions = webdriver.ChromeOptions()
+chromeOptions.add_experimental_option("prefs",{"download.default_directory" : "A:\Automation\Selenium_using_python\Selenium_Projects\img"})
+driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe",options = chromeOptions)
 
 #To download files at specific folder in FireFox
-fp = webdriver.FirefoxProfile()
-fp.set_preference("browser.download.folderList", 2)
-fp.set_preference("browser.download.manager.showWhenStarting", False)
-fp.set_preference("browser.download.dir", 'E:\Filedownload')
-fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/plain,application/pdf")#Mime type
+# fp = webdriver.FirefoxProfile()
+# fp.set_preference("browser.download.folderList", 2)
+# fp.set_preference("browser.download.manager.showWhenStarting", False)
+# fp.set_preference("browser.download.dir", 'E:\Filedownload')
+# fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/plain,application/pdf")#Mime type
 
-driver = webdriver.Firefox(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe",firefox_profile=fp)
+# driver = webdriver.Firefox(executable_path="A:\Automation\Selenium_using_python\geckodriver.exe",firefox_profile=fp)
 driver.get("http://demo.automationtesting.in/FileDownload.html")
 
 #Download text file
@@ -28,5 +28,4 @@ driver.find_element_by_id("createPdf").click()
 driver.find_element_by_id("pdf-link-to-download").click()
 
 time.sleep(10)
-
 driver.close()
