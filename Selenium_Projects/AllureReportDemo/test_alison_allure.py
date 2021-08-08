@@ -37,5 +37,8 @@ class TestAlison:
             allure.attach(self.driver.get_screenshot_as_png(),name="testloginscreen",attachment_type=AttachmentType.PNG)
             self.driver.close()
             assert False
-# to run = pytest -v -s --alluredir="E:\Selenium_using_python\Selenium_Projects\AllureReportDemo\reports" test_alison_allure.py
-#to generate allure report =E:\Software Testing\allure-2.14.0\bin>allure serve E:\Selenium_using_python\Selenium_Projects\AllureReportDemo\reports
+#add pytest,allure-pytest package
+# to run = pytest -v -s --alluredir="A:\Automation\Selenium_using_python\Selenium_Projects\AllureReportDemo\reports" test_alison_allure.py
+#to generate allure report
+# 1) download allure from https://repo.maven.apache.org/maven2/
+# to get allure report type cmd on cmd prompt =A:\Automation\Selenium_using_python\allure-commandline-2.13.9\allure-2.13.9\bin> allure serve A:\Automation\Selenium_using_python\Selenium_Projects\AllureReportDemo\reports

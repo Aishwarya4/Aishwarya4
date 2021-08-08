@@ -5,7 +5,7 @@ class TestAlison():
 
     @pytest.fixture()
     def setup(self):
-        self.driver = webdriver.Chrome(executable_path="/chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
         self.driver.maximize_window()
         yield
         self.driver.close()
@@ -22,4 +22,5 @@ class TestAlison():
         self.driver.find_element_by_xpath("//input[@value='Log In']").click()
         assert self.driver.title == "Alison | Free Online Courses & Online Learning"
 
-
+#add pytest-html for report generation
+#to run- pytest -v -s --html=.\alisonReport\reports.html (--self-contained-html)opt  test_Alison.py

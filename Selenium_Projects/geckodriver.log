@@ -95,3 +95,5 @@ JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: Fail
 * Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.

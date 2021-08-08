@@ -27,5 +27,5 @@ class SearchEnginesTest(unittest.TestCase):
 if __name__=="__main__":
     unittest.main()
 
-
+#to run on terminal-   python unittest_framework.py
 
