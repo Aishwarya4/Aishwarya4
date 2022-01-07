@@ -1,107 +1,107 @@
 #1)
 # Python code to swap two numbers
 # without using another variable
-# x = 5
-# y = 7
-#
-# print ("Before swapping: ")
-# print("Value of x : ", x, " and y : ", y)
-#
-# # code to swap 'x' and 'y'
-# x, y = y, x
-#
-# print ("After swapping: ")
-# print("Value of x : ", x, " and y : ", y)
+x = 5
+y = 7
+
+print ("Before swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+# code to swap 'x' and 'y'
+x, y = y, x
+
+print ("After swapping: ")
+print("Value of x : ", x, " and y : ", y)
 
 
 #2)
 # Python code to swap two numbers
 # using Bitwise XOR method
 
-# x = 95 # x = 0101
-# y = 50 # y = 1010
-#
-# print ("Before swapping: ")
-# print("Value of x : ", x, " and y : ", y)
-#
-# # Swap code
-# x ^= y # x = 1111, y = 1010
-# y ^= x # y = 0101, x = 1111
-# x ^= y # x = 1010, y = 0101
-#
-# # print ("After swapping: ")
-# print("Value of x : ", x, " and y : ", y)
+x = 95 # x = 0101
+y = 50 # y = 1010
+
+print ("Before swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+# Swap code
+x ^= y # x = 1111, y = 1010
+y ^= x # y = 0101, x = 1111
+x ^= y # x = 1010, y = 0101
+
+# print ("After swapping: ")
+print("Value of x : ", x, " and y : ", y)
 
 #3)
 # Python code to swap two numbers
 # using + and - operators
-# x = 5.4
-# y = 10.3
-#
-# print ("Before swapping: ")
-# print("Value of x : ", x, " and y : ", y)
-#
-# # Swap code
-# x = x + y # x = 15.7, y = 10.3
-# y = x - y # x = 15.7, y = 5.4
-# x = x - y # x = 10.3, y = 5.4
-#
-# print ("After swapping: ")
-# print("Value of x : ", x, " and y : ", y)
+x = 5.4
+y = 10.3
+
+print ("Before swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+# Swap code
+x = x + y # x = 15.7, y = 10.3
+y = x - y # x = 15.7, y = 5.4
+x = x - y # x = 10.3, y = 5.4
+
+print ("After swapping: ")
+print("Value of x : ", x, " and y : ", y)
 
 #4)
 # Python code to swap two numbers
 # using / and * operators
-# x = 5.4
-# y = 10.3
-#
-# print ("Before swapping: ")
-# print("Value of x : ", x, " and y : ", y)
-#
-# # Swap code
-# x = x * y # x = 55.62, y = 10.3
-# y = x / y # x = 55.62, y = 5.4
-# x = x / y # x = 10.3, y = 5.4
-#
-# print ("After swapping: ")
-# print("Value of x : ", x, " and y : ", y)
+x = 5.4
+y = 10.3
 
-#5)
+print ("Before swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+# Swap code
+x = x * y # x = 55.62, y = 10.3
+y = x / y # x = 55.62, y = 5.4
+x = x / y # x = 10.3, y = 5.4
+
+print ("After swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+# 5)
 # python program to swap two numbers
-# # using bitwise addition for swapping
-# x = 50;
-# y = 10;
-#
-# print ("Before swapping: ") ;
-# print("Value of x : ", x, " and y : ", y) ;
-#
-# # same as x = x + y
-# x = (x & y) + (x|y) ;
-#
-# #vsame as y = x - y
-# y = x + (~y) + 1 ;
-#
-# # same as x = x - y
-# x = x + (~y) + 1 ;
-#
-# print ("After swapping: ")
-# print("Value of x : ", x, " and y : ", y)
+# using bitwise addition for swapping
+x = 50;
+y = 10;
 
-#6)
+print ("Before swapping: ") ;
+print("Value of x : ", x, " and y : ", y) ;
+
+# same as x = x + y
+x = (x & y) + (x|y) ;
+
+#vsame as y = x - y
+y = x + (~y) + 1 ;
+
+# same as x = x - y
+x = x + (~y) + 1 ;
+
+print ("After swapping: ")
+print("Value of x : ", x, " and y : ", y)
+
+# 6)
 # Python program to demonstrate
 # swapping of two variables
 
-# x = 10
-# y = 50
-#
-# # Swapping of two variables
-# # Using third variable
-# temp = x
-# x = y
-# y = temp
-#
-# print("Value of x:", x)
-# print("Value of y:", y)
+x = 10
+y = 50
+
+# Swapping of two variables
+# Using third variable
+temp = x
+x = y
+y = temp
+
+print("Value of x:", x)
+print("Value of y:", y)
 
 
 #7)
@@ -136,6 +136,5 @@ if __name__ == '__main__':
 
     swapThree(a, b, c)
 
-# This code is contributed by
-# Surendra_Gangwar
+
 
