@@ -1,6 +1,6 @@
 import requests
 from selenium import webdriver
-# from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver manager.chrome import ChromeDriverManager
 
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
@@ -18,5 +18,4 @@ for link in links:
     print("Valid link")
   else:
     print(link.get_attribute('href'),"Broken link")
-
 driver.close()

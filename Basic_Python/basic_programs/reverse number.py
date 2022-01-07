@@ -1,5 +1,4 @@
 # Python program to reverse a number
-
 n = 4562
 rev = 0
 
@@ -9,5 +8,7 @@ while(n > 0):
 	n = n // 10
 
 print(rev)
+
+
 
 
