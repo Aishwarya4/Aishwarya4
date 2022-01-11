@@ -97,3 +97,37 @@ console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 Exiting due to channel error.
 Exiting due to channel error.
+1641577281414	geckodriver	INFO	Listening on 127.0.0.1:55607
+1641577284505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofileVDWciV"
+1641577285507	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aishwarya\\AppData\\Local\\Temp\\rust_mozprofileVDWciV\\search.json.mozlz4", (void 0)))
+1641577288203	Marionette	INFO	Listening on port 55615
+1641577288260	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11900, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1641577299427	Marionette	INFO	Stopped listening on port 55615
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641577601646	geckodriver	INFO	Listening on 127.0.0.1:52556
+1641577604762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofileaHSenp"
+*** You are running in headless mode.
+1641577605184	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aishwarya\\AppData\\Local\\Temp\\rust_mozprofileaHSenp\\search.json.mozlz4", (void 0)))
+1641577606486	Marionette	INFO	Listening on port 52564
+1641577606791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1641749543986	geckodriver	INFO	Listening on 127.0.0.1:62392
+1641749547099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofileVAMuQK"
+1641749548235	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aishwarya\\AppData\\Local\\Temp\\rust_mozprofileVAMuQK\\search.json.mozlz4", (void 0)))
+1641749550866	Marionette	INFO	Listening on port 62400
+1641749551345	Marionette	WARN	TLS certificate errors will be ignored for this session
+1641749562360	Marionette	INFO	Stopped listening on port 62400
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

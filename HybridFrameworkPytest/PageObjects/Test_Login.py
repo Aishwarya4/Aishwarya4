@@ -1,6 +1,6 @@
 # import sys,os
 # myPath = os.path.dirname(os.path.abspath(__file__))
-# sys.path.insert(0,myPath+'E:\Selenium_using_python\Pytest\HybridFrameworkPytest\PageObjects')
+# sys.path.insert(0,myPath+'A:\Automation\Selenium_using_python\HybridFrameworkPytest\PageObjects')
 from LoginPage import LoginPage
 from readProperties import ReadConfig
 from customlogger import LogGen
@@ -22,7 +22,7 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("******** Home page title test is passed ********")
         else:
-            self.driver.save_screenshot("E:\\Selenium_using_python\\Pytest\\HybridFrameworkPytest\\Screenshots\\test_homePageTitle.png")
+            self.driver.save_screenshot("A:\\Automation\\Selenium_using_python\\HybridFrameworkPytest\\test_homePageTitle.png")
             self.driver.close()
             self.logger.info("******** Home page title test passed ********")
             assert False
@@ -41,7 +41,7 @@ class Test_001_Login:
             self.driver.close()
             self.logger.info("******** Login test passed ********")
         else:
-            self.driver.save_screenshot("E:\\Selenium_using_python\\Pytest\\HybridFrameworkPytest\\Screenshots\\test_login.png")
+            self.driver.save_screenshot("A:\\Automation\\Selenium_using_python\\HybridFrameworkPytest\\test_login.png")
             self.driver.close()
             self.logger.info("******** Login test failed ********")
             assert False

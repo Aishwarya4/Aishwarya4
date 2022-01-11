@@ -14,7 +14,6 @@ print("Number of rows in excel sheet:",rows)
 print("Number of columns in excel sheet:",cols)
 
 #To print the records from sheet
-
 for r in range(1,rows+1):
     for c in range(1,cols+1):
         print(sheet.cell(row=r,column=c).value, end="         ")

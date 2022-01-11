@@ -20,8 +20,8 @@ drp.select_by_index(2)
 print("Number of dropdown option:",len(drp.options))
 
 #Capture options and print them
-all_options =  drp.options
-for option in all_options:
+# all_options =  drp.options
+for option in drp.options:
     print(option.text)
 
 time.sleep(5)

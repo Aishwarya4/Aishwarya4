@@ -1,7 +1,10 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.firefox import GeckoDriverManager
 import time
 
-driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
+# driver = webdriver.Chrome(executable_path="A:\Automation\Selenium_using_python\chromedriver.exe")
+driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("http://testautomationpractice.blogspot.com/")
 
 driver.find_element_by_xpath("//button[normalize-space()='Click Me']").click()
