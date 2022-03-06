@@ -1,6 +1,6 @@
 #private variables only can be accessible within method
 class myClass:
-    __a=12  #use double uderscrore to declare private method
+    __a=12  #use double uderscrore to declare private variable
     b=34  #public variable
     def disp(self):
         print(self.__a)

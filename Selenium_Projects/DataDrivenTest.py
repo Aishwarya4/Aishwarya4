@@ -26,10 +26,10 @@ for r in range(2,rows+1):
         XLUtils.writeData(path,"Sheet1",r,3,"Test Passed")
 
         driver.find_element_by_xpath("//a[@class='link sidebar-trigger']//img[@alt='Aishwarya Parab']").click()
-        b = driver.find_element_by_xpath("//a[contains(text(),'Logout')]")
+        logout = driver.find_element_by_xpath("//a[contains(text(),'Logout')]")
         actions = ActionChains(driver)
         time.sleep(5)
-        actions.move_to_element(b).click().perform()
+        actions.move_to_element(logout).click().perform()
         time.sleep(5)
         driver.find_element_by_xpath("//a[@class='link login-button']").click()
 

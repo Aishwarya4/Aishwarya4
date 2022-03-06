@@ -12,10 +12,10 @@ driver.implicitly_wait(10)
 driver.get("https://www.booking.com/")
 driver.find_element_by_xpath("//*[@id='b2indexPage']/header/nav[2]/ul/li[2]/a").click()
 
-#Explicit Wait
+# Explicit Wait
 
-#wait = WebDriverWait(driver, 10)
-#from_ele = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id='react-select-2--value']/div[2]/input")))
+# wait = WebDriverWait(driver, 10)
+# from_ele = wait.until(EC.element_to_be_clickable((By.XPATH, "//*[@id='react-select-2--value']/div[2]/input")))
 
 #Fluent Wait
 # Fluent_wait = WebDriverWait(driver, 10,2,ignored_exceptions=[ElementClickInterceptedException])

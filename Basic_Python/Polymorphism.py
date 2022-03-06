@@ -14,7 +14,7 @@ class Bank:
         return 0
 class SBI(Bank):
     def rateofinterest(self):  #when this method is not available it will call parent method
-        # return 23.8
+        return 23.8
         pass
 ob1 =SBI()
 print(ob1.rateofinterest())
